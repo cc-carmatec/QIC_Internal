@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QIC Home</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <!--CSS files starts here-->
+
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/slick-theme.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-select.css">
+  <link rel="stylesheet" href="assets/css/easy-responsive-tabs.css">
+  <link href="assets/css/tipuesearch.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <!--CSS files ends here-->
+  <!--Script files start here-->
+  <script src="assets/scripts/jquery.min.js"></script>
+  <script src="assets/scripts/bootstrap-select.js"></script>
+  <script src="assets/scripts/bootstrap.min.js"></script>
+  <script src="assets/scripts/slick.js"></script>
+  <script src="assets/scripts/easy-responsive-tabs.js"></script>
+  <script src="assets/scripts/tipuesearch_content.js"></script>
+  <script src="assets/scripts/tipuesearch_set.js"></script>
+  <script src="assets/scripts/tipuesearch.min.js"></script>
+  <!-- plugin for date and time picker -->
+  <script src="assets/scripts/moment-with-locales.js"></script>
+  <script src="assets/scripts/script.js"></script>
+  <!--Script files ends here-->
+</head>
+
+<body id="top">
+
+  <nav class="navbar navbar-default">
+    <div class="container mt10">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="assets/images/Logo.png" alt="Logo" class="img-responsive">
+        </a>
+      </div>
+
+
+      <div class="collapse navbar-collapse js-navbar-collapse pull-right col-md-9 main-menu-width">
+        <div class="hidden-1024 pull-right">
+          <select class="selectpicker new-drop-down" name="prof-country">
+          
+            <option data-content="<span style='display:inline-block; width:30px;'><img src='assets/images/QIC.jpg'></span><span style='display:inline-block;color: #2d5497;margin-right: 20px;'>QIC QATAR</span>" selected></option>
+            <option data-content="<span style='display:inline-block; width:30px;'><img src='assets/images/UAE.jpg'></span><span style='display:inline-block;color: #2d5497;margin-right: 20px;'>United Arab Emirates</span>"></option>
+            <option data-content="<span style='display:inline-block; width:30px;'><img src='assets/images/Kuwait.jpg'></span><span style='display:inline-block;color: #2d5497;margin-right: 20px;'>Kuwait</span>"></option>
+            <option data-content="<span style='display:inline-block; width:30px;'><img src='assets/images/Oman.jpg'></span><span style='display:inline-block;color: #2d5497;margin-right: 20px;'>Oman</span>"></option>
+          </select>
+          <div class="contact_details">
+            <span class="hotline"><i class="fa fa-phone"></i> <span class="text">Hotline</span> <span>8006 7421</span></span><span class="div">|</span><span class="mail_to"><a href="mailto:info@qic.com.qa"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+								</a></span>
+          </div>
+          <div class="language-select desktop">
+            <button type="button" class="btn arabic active" value="English">English</button>
+            <button type="button" class="btn english " value="Arabic">العربية</button>
+          </div>
+        </div>
+        <ul class="nav navbar-nav pull-right">
+
+          <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Personal Insurance  <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Car</a>
+              </li>
+              <li><a href="#">Home</a>
+              </li>
+              <li><a href="#">Travel</a>
+              </li>
+               <li><a href="#">Personal Accident Benefits</a>
+              </li>
+               <li><a href="#">Policy wordings</a>
+              </li>
+               <li><a href="#">Retrieve quote</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">Renew <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <div class="dropdown-menu" id="renewMenu">
+                          <form id="renewMenuFrm" name="renewMenuFrm" action="/QIC/Anoud/GetTravelInsurance.do" method="post" class="class java.util.HashMap">
+
+                            <div class="form-group">
+                              <div class="col-md-12 p0">
+                                <p>Renew your Policy here</p>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                  <input type="text" name="policyNo" maxlength="15" value="" id="policyNo" class="form-control plo-form-control" placeholder="Policy No">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                  <div class="or-div" style="width: 25px; height: 25px; line-height: 25px; margin-top: 5px; margin-bottom: 5px !important;">OR</div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                  <input type="text" name="civilId" maxlength="0" value="" id="civilId" class="form-control number plo-form-control" placeholder="Civil Id">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt10">
+                                  <input type="submit" id="btn_renew_menu" value="Renew">
+                                </div>
+                              </div>
+                            </div>
+                            <input type="hidden" name="searchType" value="POLICY" id="renewMenuFrm_searchType">
+                            <input type="hidden" name="insuranceType" value="RP" id="renewMenuFrm_insuranceType">
+                            <input type="hidden" name="vehicleType" value="" id="renewMenuFrm_vehicleType">
+                            <input type="hidden" name="lobCode" value="" id="renewMenuFrm_lobCode">
+                            <input type="hidden" name="company" value="001" id="renewMenuFrm_company">
+                          </form>
+
+
+
+
+                        </div>
+          </li>
+<!--           <li class="dropdown mega-dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Claims <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu mega-dropdown-menu row">
+              <li class="col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Claims</li>
+                  <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Claim Overview</a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>The Process</a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Auto Carousel</a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Newsletter Form</a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Four columns</a>
+                  </li>
+                </ul>
+
+              </li>
+              <li class="col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Help on roads</li>
+                  <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Easy to customize</a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Glyphicons</a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Pull Right Elements</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Report to track a claim</li>
+                  <li>
+                    <button class="btn btn-login-policy mt10 mb10">Log In to Policy</button>
+                  </li>
+                  <li>or, call <span class="blue-color">80067421</span>
+                  </li>
+                  <li><span class="blue-color">Not a Customer? Track claim here</span>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li> -->
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Support <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Manage policy</a>
+              </li>
+              <li><a href="#">FAQ</a>
+              </li>
+              <li><a href="#">Contact us</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="div-bar hidden-1024">|</span> Business Insurance <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Property &amp; Commercial</a>
+              </li>
+              <li><a href="#">Marine &amp; Aviation</a>
+              </li>
+              <li><a href="#">Energy</a>
+              </li>
+              <li><a href="#">Motor Fleet</a>
+              </li>
+              <li><a href="#">Downloadable Forms</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#"><span class="div-bar hidden-1024">|</span> About QIC Group</a>
+          </li>
+
+
+          <li><a href="#"><span class="div-bar hidden-1024">|</span><i class="fa fa-lock" aria-hidden="true"></i>
+          Login</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <!-- /.nav-collapse -->
+    </div>
+
+  </nav>
+
+  <!--Section Two-->
+  <div class="full-wrapper qic-bg-light-grey">
+    <div class="homepage_slider_banner">
+      <div class="banner_slider">
+        <img src="assets/images/home_banner_image.jpg">
+      </div>
+    </div>
+      
+  </div>
+  <!--Section Two-->
+
+  <!--Section Three-->
+  <div class="full-wrapper featurs-qic-bg">
+    <div class="container">
+      <div class="why-us-section">
+        <div class="section-privacy-policy text-center">
+          <h1 class="">WHY US</h1>
+          <p>QIC was founded more than 50+ years ago, with the task to support the growth of Qatar.</p>
+          <p>Over the years, we have developed alongside Qatar and today we not only support the growth of the companies in Qatar – we also support the daily lives of the individuals working for those companies We do this in the same caring way as we do for the corporations We are thankful and proud that so many people and corporations have placed their trust in us and we now are the largest insurance company not only in Qatar, but in the Middle East </p>
+          <span>…because all we do, we do for you</span>
+        </div>
+          <div class="panel panel-default why-us-panel mt30 mb90">
+            <div class="panel-body">
+              <div class="col-md-12">
+                <div class="privacy-policy-list">
+                <div>
+                    <h5 class="pt20"><span class="why-us-no">1</span>Same Prices - Better Deals</h5>
+                    <p>We’re not more expensive than the other insurers in the market – chances are, you’ll find us cheaper And you will for sure find our deals better  when you compare the benefits and services we offer – at the same prices But insurance is not all about low premiums – it’s also about being sure that we’re able to pay, fast and correct, when you have a claim</p>
+                </div>
+                <div>
+                    <h5 class="pt20"><span class="why-us-no">2</span>Less Hassle - More Peace</h5>
+                    <p>You’re safe with us – being the largest insurance company in the Middle East gives you the security of knowing we’ll always be able to manage – and pay – for your claims And we’ll do this professionally and effectively – every time For you, this means less hassle and shorter time for you to get your claim settled – and paid</p>
+                </div>
+                <div>
+                    <h5 class="pt20"><span class="why-us-no">3</span>Everything Online</h5>
+                    <p>Speaking of less hassle, we’re the only insurance company in Qatar that offers you a complete range of online personal insurance services – with QIC, you can buy and renew your personal insurances online; you can even renew your comprehensive car insurance with QIC if you’re insured somewhere else today Adding to this our unparalleled branch network covering Qatar as well as our free insurance policy delivery  services and you’ll have the most convenient way of insuring you, your home, car and family</p>
+                </div>
+                <div>
+                    <h5 class="pt20"><span class="why-us-no">4</span>Repairs in Hi-speed</h5>
+                    <p>Being big is good. If needed, we can provide assistance to help you deal with car repairs at the workshops – we’ll help you get your claims settled and repairs done faster From our side, we already have a three working-day approval policy for motor claims, meaning that it takes less than three working days for us to assess your damaged car and issue the approvals for the workshop to begin repairs immediately</p>
+                </div>
+                <div>   
+                    <h5 class="pt20"><span class="why-us-no">5</span>A Call Center That Cares</h5>
+                    <p>And – of course – our call center is open all day where expertly trained staff is ready to assist you with everything, claims, questions, comments, insurances… everything – just give us a call on our QIC <span>Hotline 8000 742</span> – when we say we’re here for you we mean it</p>
+
+                    <p class="pt20">Our goals for the Personal Lines (motor, home, travel, boat) are important for you, too, because……</p>
+                    <p>
+                    ...we will not keep our pole position if you won’t let us!  Every day, year in and year out, we are committed to make you feel special We are here to understand your needs and concerns, and our primary goal is to create products that caters all of them Our goal is to offer you the best personal insurance products at the right price in the most convenient way for you, be it buying, renewing or claiming Try us, you will not be disappointed.  </p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- Footer Beigns -->
+  <div class="full-wrapper footer-bg">
+    <footer class="container">
+      <a href="#top" class="scroll_to_top"></a>
+      <div class="row ml-0 mr-0 footer-container">
+        <div class="col-md-4 col-sm-6 col-xs-12 noLRpdg">
+          <div class="site-links-block">
+            <h3>Latest News</h3>
+            <div class="news-headlines-section">
+              <span class="news-headlines">NEWS HEADLINE1</span>
+              <p class="news-headlines-content">31960s with the release of Letraset sheets containing the publishing software like Aldus... <span class="news-headlines-readmore">Read More</span>
+              </p>
+            </div>
+            <div class="brd-btm mt10 mb10"></div>
+
+            <div class="news-headlines-section">
+              <span class="news-headlines">NEWS HEADLINE2</span>
+              <p class="news-headlines-content">desktop publishing software the release of Letraset sheets containing the publishing... <span class="news-headlines-readmore">Read More</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-xs-12 noLRpdg">
+          <div class="site-links-block">
+            <h3>Main Links</h3>
+            <ul class="list-inline">
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="index.html">About QIC Group</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Business Insurance</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-xs-12 noLRpdg">
+          <div class="site-links-block">
+            <h3>Insurance</h3>
+            <ul class="list-inline">
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="car_insurance.html">Car</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="home_insurance.html">Home</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="Travel_Insurance.html">Travel</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Policy Wordings</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-xs-12 noLRpdg">
+          <div class="site-links-block">
+            <h3>Support</h3>
+            <ul class="list-inline">
+              <li>
+                <i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Location</a>
+              </li>
+              <li>
+                <i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Customer Care</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Request a Call Back</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12 col-xs-12 noLRpdg last-block">
+          <div class="site-links-block">
+            <h3>Go Mobile</h3>
+            <ul class="list-inline list-inline-block">
+              <li>
+                <a href="javascript:void(0)"><img src="assets/images/aps-googl.png" alt="Play Store">
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)"><img src="assets/images/aps-app.png" alt="App store">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <h3>Follow us on</h3>
+            <ul class="list-inline">
+              <li>
+                <div class="social-icon"><a href="https://twitter.com/Qatarinsurance"><i class="fa fa-twitter"></i></a>
+                </div>
+              </li>
+              <li>
+                <div class="social-icon"><a href="https://www.facebook.com/qatarinsurance/"><i class="fa fa-facebook"></i></a>
+                </div>
+              </li>
+              <li>
+                <div class="social-icon"><a href="https://www.linkedin.com/company/qatar-insurance-company-doha"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </li>
+              <li>
+                <div class="social-icon"><a href="https://www.instagram.com/qatar.insurance"><i class="fa fa-instagram"></i></a>
+                </div>
+              </li>
+              <li>
+                <div class="social-icon"><a href="https://www.youtube.com/user/QICGroup"><i class="fa fa-youtube"></i></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row ml-0 mr-0 footer-container borderTop mb20">
+        <h2 class="footer-heading">CERTIFICATION</h2>
+        <div class="outer-block">
+          <div class="cirtification-block clearfix">
+            <div class="cirtfct-logo">
+              <img src="assets/images/certificate1.png">
+            </div>
+            <div class="content-block">
+              <p class="info-block">QIC Maintenance financial Strength Rating (Standard &amp; poor's) of A/Stable.</p>
+            </div>
+          </div>
+        </div>
+        <div class="outer-block">
+          <div class="cirtification-block clearfix">
+            <div class="cirtfct-logo">
+              <img src="assets/images/certificate2.png">
+            </div>
+            <div class="content-block">
+              <p class="info-block">A.M Best Europe assigned financial strength rating of A (Excellent) and issuer credit rating of "a" to QIC and its main subsidiaries:</p>
+            </div>
+          </div>
+        </div>
+        <div class="outer-block">
+          <div class="cirtification-block clearfix">
+            <div class="cirtfct-logo">
+              <img src="assets/images/certificate3.png">
+            </div>
+            <div class="content-block">
+              <p class="info-block">IT Security ISO 27001 cerification.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="full-wrapper copy-rights-bg">
+      <div class="container">
+        <div class="row ml-0 mr-0 footer-container">
+          <div class="copy-right-block col-lg-12 col-md-12 col-sm-12 col-xs-12 noLRpdg">
+            <span class="copy-right-logo">Copyright &copy; All rights reserved QIC Group Doha, 2005-2016</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Footer Ends-->
+  <script>
+    $(document).on('click', '.mega-dropdown', function(e) {
+      e.stopPropagation()
+    })
+
+    $(document).on('ready', function() {
+		$('.banner_slider').slick({
+		  lazyLoad: 'ondemand',
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  speed: 1000,
+		  autoplay: false,
+		  autoplaySpeed: 3000,
+		  nextArrow: '<div class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+		  prevArrow: '<div class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>'
+		});
+	});
+
+    var index = 0;
+    $(function animate_list() {
+    	$(".slider-highlight li").each(function () {
+    		$(".slider-highlight li").eq(4-index).animate({opacity:1},index*300, 
+    			function() {
+		 			$(".btn-red-border-left").animate({opacity:1}, 2500);
+		 			$('.slider-highlight li').eq(0).addClass('active');
+		 		});
+    		index++;
+    	});
+	});
+    
+    $('.banner_slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+    	$(".slider-highlight li").removeClass("active");
+	 	var mySlideNumber = nextSlide;
+		$(".slider-highlight li:eq("+mySlideNumber+")").addClass("active");
+	});
+  </script>
+
+
+ <!-- Modal -->
+  <div class="modal fade" id="myModalShowAll" role="dialog">
+    <div class="modal-dialog show-all-modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content show-all-modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title show-all-modal-title">Select a Product</h4>
+        </div>
+        <div class="modal-body">
+            
+             <div class="pre-second-block white-bg-color clearfix pdg20">
+                          <div class="col-md-12 clearfix">
+                               <div class="col-md-6 col-sm-6 clearfix mb20">
+                                   <div class="col-md-3 col-sm-3 col-xs-4 font-size14 nolrpadding">
+                                   <div class="img-icon-all">
+                                     <div class="show-all-pink-dot"></div>
+                                   <img class="brd-rnd-img" src="assets/images/popup/Car.png">
+                                   </div>
+                                  </div>
+                                  <div class="col-md-9 col-sm-9 col-xs-8 mt10">
+                                    <a href="#" class="show-all-text-font">Comprehensive Car</a>
+                                  </div>
+                               </div>
+
+                              <div class="col-md-6 col-sm-6 clearfix mb20">
+                                 <div class="col-md-3 col-sm-3 col-xs-4 font-size14 nolrpadding">
+                                  <div class="img-icon-all">
+                                 <img class="brd-rnd-img" src="assets/images/popup/Car2.png">
+                                 </div>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-8 mt10">
+                                  <a href="#" class="show-all-text-font">Third Party Car</a>
+                                </div>
+                              </div>
+                          </div>
+
+                           <div class="col-md-12 clearfix">
+                               <div class="col-md-6 col-sm-6 clearfix mb20">
+                                   <div class="col-md-3 col-sm-3 col-xs-4 font-size14 nolrpadding">
+                                   <div class="img-icon-all">
+                                   <img class="brd-rnd-img" src="assets/images/popup/Home.png">
+                                  </div>
+                                  </div>
+                                  <div class="col-md-9 col-sm-9 col-xs-8 mt10">
+                                  <a href="#" class="show-all-text-font">Home</a>
+                                  </div>
+                               </div>
+
+                              <div class="col-md-6 col-sm-6 clearfix mb20">
+                                 <div class="col-md-3 col-sm-3 col-xs-4 font-size14 nolrpadding">
+                                 <div class="img-icon-all">
+                                 <img class="brd-rnd-img" src="assets/images/popup/Travel.png">
+                                 </div>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-8 mt10">
+                                <a href="#" class="show-all-text-font">Travel</a>
+                                </div>
+                              </div>
+                          </div>
+
+                           <div class="col-md-12 clearfix">
+                               <div class="col-md-6 col-sm-6 clearfix mb20">
+                                   <div class="col-md-3 col-sm-3 col-xs-4 font-size14 nolrpadding">
+                                   <div class="img-icon-all">
+                                   <img class="brd-rnd-img" src="assets/images/popup/PAB.png">
+                                   </div>
+                                  </div>
+                                  <div class="col-md-9 col-sm-9 col-xs-8 mt10">
+                                    <a href="#" class="show-all-text-font">Personal Accident Benefits</a>
+                                  </div>
+                               </div>
+
+                              <div class="col-md-6 col-sm-6 clearfix mb20">
+                                <!--  <div class="col-md-3 col-sm-3 col-xs-4 font-size14 nolrpadding">
+                                <div class="img-icon-all">
+                                 <img class="brd-rnd-img" src="assets/images/popup/Car.png">
+                                 </div>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-8 mt10">
+                                 <a href="#" class="show-all-text-font">Comprehensive Car</a>
+                                </div> -->
+                              </div>
+                          </div>
+            </div>
+
+
+        </div>
+        <!-- <div class="modal-footer pdg30">
+          <button type="button" class="btn btn-default btn-det-modal-close" data-dismiss="modal">Close</button>
+        </div> -->
+      </div>
+      
+    </div>
+  </div>
+
+</body>
+
+</html>

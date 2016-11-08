@@ -9525,3 +9525,256 @@ a.send-email,.send-email{
     color: #44679F;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
+/*FAQ CSS by Madhuri */
+
+.faq-banner-image
+{
+
+	background-image: url("../images/home_banner_image.jpg");
+    background-position:  center top;
+    background-size: no-repeat  100%;
+    min-height: 15em;
+}
+.faq-text
+{
+	text-transform: uppercase;
+    font-family: "Roboto bold";
+    font-size: 2.9em;
+    color: #AA1F36;
+    padding-top:12px;
+}
+.faq-p
+{
+	text-transform: uppercase;
+    font-family: "Roboto bold";
+    padding-top:7px;
+    color:#666666;
+}
+.faq-span
+{
+	text-transform: uppercase;
+    font-family: "Roboto bold";
+    padding-top:7px;
+    color:#2775DA;
+}
+
+.faq-number
+{
+	text-transform: uppercase;
+    font-family: "Roboto bold";
+    padding-top:7px;
+    color:#2775DA;
+    font-size:23px;
+}
+
+.faq-tabs
+{
+	text-transform: uppercase;
+}
+.faq-text-tabs
+{
+	
+    font-family: "Roboto medium";
+    font-size: 1.7em;
+    color: #AA1F36;
+    padding-top:12px;
+}
+.navigation-tab-section  > li.active > a, .navigation-tab-section  > li.active > a:focus, .navigation-tab-section  > li.active > a:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: white;
+    border-color: transparent transparent #AA2037;
+    border-image: none;
+    border-width: 2px;
+    color: #AA1F36;
+    cursor: default;
+    font-family: "Roboto";
+}
+.navigation-tab-section  > li > a, .navigation-tab-section  > li > a:focus, .navigation-tab-section  > li > a:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: white;
+    border-color: transparent;
+    border-image: none;
+    color: #323232;
+    cursor: default;
+    font-family: "Roboto";
+    position: relative;
+}
+.navigation-tab-section > li.active > a::after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #aa1f36 transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 8px;
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left: -12px;
+    position: absolute;
+    top: 100%;
+}
+.navigation-tab-section  {
+    border-bottom: 0px ;
+}
+.navigation-tab-section {
+    list-style: outside none none;
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+}
+.navigation-tab-section > li {
+    float: left;
+    margin-bottom: -1px;
+    padding-top: 9px;
+    width: 100%;
+}
+.horizontal-separator {
+    overflow: hidden;
+    text-align: center;
+        margin-top: 18px;
+    margin-bottom: 0px;
+
+}
+.horizontal-separator::before, .horizontal-separator::after {
+    background-color: #e2e2e2;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: top;
+    width: 70%;
+}
+.horizontal-separator::before {
+    margin-left: -50%;
+    right: 6.5em;
+}
+.horizontal-separator::after {
+    left: -5.5em;
+    margin-right: -53%;
+}
+.first-question {
+	color: #0f4574;
+	display: inline-flex;
+	font-size:0.9em;
+	text-transform: uppercase;
+	font-family: "Roboto-bold";
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.first-question > span {
+	padding-right: 10px;
+}
+.first-answer {
+	color: #747474;
+	display: inline-flex;
+	font-size: 1em;
+	font-family: "Roboto-bold";
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+.first-answer  > span {
+	color: #aa0933;
+	padding-right: 20px;
+}
+.list-item-home-insurance
+{
+    	color: #747474;
+    	padding-top: 5px;
+    	font-size: 0.9em;
+	    font-family: "Roboto-bold";
+} 
+.question {
+	color: #0f4574;
+	display: inline-flex;
+	font-size:0.9em;
+	text-transform: uppercase;
+	font-family: "Roboto-bold";
+	padding-top:10px;
+}
+.question > span {
+	padding-right: 10px;
+}
+.answer {
+	color: #747474;
+	display: inline-flex;
+	font-size: 1em;
+	font-family: "Roboto-bold";
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+.answer > span {
+	color: #aa0933;
+	padding-right: 20px;
+}
+.answer img{
+	width: 14px;
+	height: 14px;
+}
+/*Harish css for Why us*/
+.why-us-section .panel {
+    border-color: #e6e6ea;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    box-shadow: none;
+}
+.why-us-section .section-privacy-policy {
+    padding: 45px 0;
+    background: rgba(0, 0, 0, 0) url("../images/bg_shadow.png") no-repeat scroll center bottom;
+}
+.section-privacy-policy h1 {
+    color: #a60e4b;
+    font-size: 46px;
+    font-weight: 100;
+    margin-top: 0px;
+     font-family: "Roboto regular";
+}
+.why-us-panel .privacy-policy-list h5 {
+    color: #4362A2;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 25px;
+    position: relative;
+    text-transform: uppercase;    
+}
+.why-us-panel .privacy-policy-list p {
+    color: #747474;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-left: 25px;
+}
+.why-us-no {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 100%;
+    box-shadow: 0 0 15px #a2a2a2;
+    color: #4362a2;
+    font-size: 16px;
+    height: 40px;
+    left: -75px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    vertical-align: middle;
+    width: 40px;
+    font-weight: bold;
+}
+.why-us-panel .privacy-policy-list p span {
+    color: #367CDE;
+}
+@media (max-width:768px){
+	.why-us-section .panel {
+     margin-left: 20px;
+	}
+}

@@ -800,3 +800,58 @@
     	padding-right: 15px !important;
     }
 }
+
+
+/*<!-- Responsive Css for FAQ by Madhuri-->*/
+@media(min-width:768px) and (max-width:980px)
+{
+.horizontal-separator {
+    overflow: hidden;
+    text-align: center;
+        margin-top: 18px;
+    margin-bottom: 0px;
+
+}
+.horizontal-separator::before, .horizontal-separator::after {
+    background-color: #e2e2e2;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: top;
+    width: 78%;
+}
+.horizontal-separator::before {
+    margin-left: -47%;
+    right: 7em;
+}
+.horizontal-separator::after {
+    left: -5.5em;
+    margin-right: -68%;
+}
+}
+@media(min-width:768px)
+{
+.navigation-tab-section > li {
+    float: left;
+    margin-bottom: -1px;
+    width: 25%;
+}
+.navigation-tab-section > li.active > a::after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #aa1f36 white white;
+    border-image: none;
+    border-style: solid;
+    border-width: 8px;
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left: -12px;
+    position: absolute;
+    top: 103%;
+}
+
+}
