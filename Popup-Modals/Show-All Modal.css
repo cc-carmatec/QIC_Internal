@@ -1,0 +1,30 @@
+.show-all-modal-title {
+    color: #325da7;
+    font-family: "Roboto-bold";
+    font-size: 1.7em;
+}
+.white-bg-color {
+    background: #ffffff none repeat scroll 0 0;
+}
+.pdg20 {
+    padding: 20px;
+}
+.font-size14 {
+    font-size: 14px;
+}
+.nolrpadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.brd-rnd-img {
+    padding-top: 8px;
+}
+.show-all-text-font {
+    color: #666666;
+    font-family: "Roboto-medium";
+    font-size: 1em;
+    text-transform: capitalize;
+}
+.mt10 {
+    margin-top: 0.625em;
+}

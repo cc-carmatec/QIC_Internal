@@ -1,0 +1,72 @@
+.oman-renew-policy {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+}
+.popuplogin {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0;
+}
+.oman-renew-policy .modal-content {
+    border-radius: 4px;
+}
+.modal-header-none {
+    border-bottom: medium none;
+    padding: 15px;
+}
+#myModalLoginForm .close, #myModalQatar .close {
+    background: #efeff1 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 50%;
+    color: #325da7 !important;
+    cursor: pointer;
+    font-weight: 600;
+    height: 26px;
+    line-height: 25px;
+    opacity: 1;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 26px;
+}
+.popuplogin .close {
+    color: #2d5394;
+}
+#myModalLoginForm .close, #myModalQatar .close {
+    color: #325da7 !important;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+}
+.oman-renew-policy-form {
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+}
+.oman-renew-policy-form .form-group label {
+    color: #686868;
+    font-family: "Roboto Medium";
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.oman-renew-policy .form-group .form-control {
+    border-radius: 25px;
+    font-size: 13px;
+    padding-bottom: 8px !important;
+    padding-top: 8px !important;
+    text-transform: none;
+    width: 100%;
+}
+.btn-login-popup {
+    background-color: #a71c33;
+    border: medium none;
+    border-radius: 27px;
+    color: #ffffff;
+    display: block;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 20px auto 0;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: capitalize;
+}

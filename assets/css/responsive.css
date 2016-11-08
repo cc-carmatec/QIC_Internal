@@ -1,0 +1,802 @@
+@media (max-width: 1199px){
+	.full-wrapper .container{
+		width:  970px;
+	}
+	.wrapper{
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.footer-container .last-block .site-links-block,
+	.footer-container .last-block .social-links{
+		padding-left: 4%;
+	}
+	.cirtfct-logo{
+		margin-bottom: 10px;
+	}
+	.cirtification-block .content-block{
+		padding-left: 10px;
+	}
+	.comprehensive-tpl-cnt .comprehensive-tpl-child{
+		width: 26%;
+	}
+	.full-wrapper .upload-image-block:nth-child(4n+1){
+		margin-left: 0;
+	}
+	.car_ins_wrapper .cc_insurance .cc_insurance_header, .car_ins_wrapper .tpl_insurance .tpl_insurance_header{
+		padding: 10px;
+	}
+	.slick-slider .slick-next{
+		right: 0;
+	}
+	.slick-slider .slick-prev{
+		left: 0;
+	}
+	/* faq*/
+	.faq-block-types a {
+		background-color: #e5e5e5;
+		border-radius: 10px 10px 0 0;
+		color: #333;
+		font-size: 14px;
+		margin: 0 auto;
+		padding: 10px;
+	}
+	/* ends*/
+	.guest-block .form-group .date-field  .lg-field {
+		width: 47%;
+	}
+	.full-wrapper .quotation-manage-policy{
+		width: 80%;
+	}
+	.imag-holder iframe {
+    height: auto;
+    width: 100%;
+	}
+}
+@media (max-width: 991px){
+	
+	.full-wrapper .container{
+		width: 750px;
+	}
+	.footer-container .last-block .site-links-block,
+	.footer-container .last-block .social-links{
+		padding-left: 0%;
+	}
+	.footer-container .outer-block{
+		margin-bottom: 15px;
+		width: 100%;
+	}
+	.footer-container .outer-block + .outer-block{
+		margin-left: 0px; 
+	}
+	.full-wrapper .featurs-outer-block{
+		width: 32%;
+		margin-bottom: 15px;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	.full-wrapper.two-row .featurs-outer-block{
+		width: 50%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.full-wrapper .featurs-outer-block + .featurs-outer-block{
+		margin-left: 0px; 
+	}
+
+	.featurs-outer-block  .home-featurs-block{
+		min-height: auto;
+	}
+	.cirtification-block .content-block{
+		width: 86%;
+	}
+	#horizontalTab .resp-tab-content .tab-form .form-group:first-child{
+		margin-bottom: 10px;
+	}
+	#horizontalTab .resp-tab-content .form-group{
+		margin-bottom: 0px;
+	}
+	.form-group .col-lg-6 {
+		margin-bottom: 10px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.form-group .col-lg-3 {
+		margin-bottom: 10px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/*.navbar-default .navbar-collapse .navbar-nav li.dropdown{
+		display: none;
+	}
+	.navbar-default .navbar-collapse .navbar-nav li a {
+		font-size: 0.01em;
+		padding-top: 10px;
+	}
+	.navbar-default .navbar-collapse .navbar-nav li a i {
+		font-size: 100em;
+	}*/
+	.full-wrapper.banner-img{
+		height: auto;
+		padding-bottom: 100px;
+	}
+	.personal-insurance-img {
+		height: 196px;
+	}
+	.personal-insurance-img img {
+		height: 100%;
+		max-width: 100%;
+		width: 100%;
+	}
+	.car_ins_wrapper .icon_fc{
+		padding: 10px;
+	}
+	.comprehensive-tpl-cnt .comprehensive-tpl-child{
+		width: 100%;
+	}
+	.comprehensive-tpl-cnt .add-plan, .comprehensive-tpl-cnt .equal-plan{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.full-wrapper .isurance-types-block .field-width,
+	.full-wrapper .isurance-types-block .large-field{
+		width: 100%;
+		padding-left: 0;
+	}
+	.isurance-types-block .insurance-types .field-width + .field-width{
+		padding-left: 0px;
+	}
+	.full-wrapper .upload-image-block:nth-child(3n+1){
+		margin-left: 10px;
+	}
+	.full-wrapper .upload-image-block:nth-child(4n+1){
+		margin-left: 10px;
+	}
+	.contatc-inner-block .customer-care .form-group .field-width{
+		width: 32.9%;
+	}
+	#privacy-details .modal-dialog {
+		margin: 30px auto;
+		width: auto !important;
+	}
+	.full-wrapper .quotation-manage-policy{
+		width: 100%;
+	}
+	.full-wrapper.personal-insurance{
+		padding-bottom: 20px;
+	}
+	.full-wrapper.featurs-bg{
+		padding-top: 20px;
+	}
+	.quote-information-block .quote-label,
+	.quote-information-block .quote-label-val{
+		width: 100%;
+	}
+	.cc_insurance .cc_insurance_header, .tpl_insurance .tpl_insurance_header{
+		min-height: 125px;
+	}
+	.unbrowser-support .small-container{
+		width: 100%;
+	}
+	.oman-travel-plans .one-top-half .oman-travel-dest >div{
+		min-height: 120px;
+	}
+	.oman-travel-plans .one-top-half .oman-travel-regional >div .title-plans{
+		min-height: 65px;
+	}
+}
+@media (max-width: 830px){
+	.wrapper .car_ins_wrapper{
+		background: transparent;
+		border-bottom:none;
+	}
+	.car_ins_wrapper .cc_insurance, .car_ins_wrapper .tpl_insurance{
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+		border-bottom: 8px solid #C2C9D1;
+	}
+	.insurance_body .chk_opt{
+		margin-bottom: 10px;
+	}			
+}
+@media (max-width: 768px){
+
+	.resp-accordion .website-tab{
+		display: none;
+	}
+	.resp-accordion .responsive-tab{
+		display: block;
+	}
+	.resp-accordion.resp-tab-active .responsive-tab{
+		color: #ffffff;
+	}
+	.full-wrapper.top_header_main{
+		background: #fff;
+	}
+	.com-description-row .com-description-column, .com-description .container .com-description-row .com-description-column:last-child{
+		width: 100%;
+		float: none;
+	}
+	.com-description .container .com-description-row .com-description-column:last-child span{
+		width: 40%;
+	}
+	.banner-img .quotation-forms{
+		margin-top: 180px;
+		margin-bottom: 20px;
+	}
+	.full-wrapper .bottom-arrow{
+		left: 45%;
+	}
+	.personal-detal-heading {
+    padding-left: 0;
+}
+.col-md-1.nolrpadding.mt40.mb5 {
+    margin-top: 10px;
+}
+.fa-angle-down-cover-all {
+    left: 40%;
+}
+}
+@media (max-width: 767px){
+	.navbar-inverse .navbar-nav > li > a{
+		padding: 10px 28px !important;
+	}
+	.wrapper .reason_ins_car{
+		background: none #fff !important;
+	}
+	
+	.wrapper .reason_ins_car .info-section{
+		max-height: 100%;
+		padding: 35px 20px;
+		float: none!important;
+	}
+	.wrapper .num_count{
+		top:-33px;
+		left: 0;
+		right: 0;
+		bottom: auto;
+	}
+	.wrapper .num_count.count-right{
+		left: 0;
+	}
+	.wrapper .reason_ins_car .img-section img{
+		height: auto;
+	}
+
+	.full-wrapper .container{
+		width: 100%;
+		padding: 0 15px
+	}
+	.full-wrapper .featurs-outer-block,.full-wrapper.two-row .featurs-outer-block{
+		width: 100%;
+		text-align: center;
+	}
+	.full-wrapper .personal-qic-heading .rated-section-left img,
+	.full-wrapper .personal-qic-heading .rated-section-right img{
+		margin: 0 auto;
+	}
+	.full-wrapper .featurs-outer-block img{
+		margin: 0 auto;
+	}
+	/*.navbar-toggle.collapsed{
+		display: none;
+	}
+	.nav.navbar-nav, .collapse.navbar-collapse{
+		display: block;
+		border: none;
+	}
+	.nav > li{
+		float: left;
+	}*/
+	.nav li.search-btn {
+		padding-right: 20px;
+	}
+	.search-form input{
+		display: inline-block;
+	}
+	.personal-insurance-img{
+		display: none;
+	}
+	.wrapper .boat_ins_cover{
+		width: 100%;
+	}
+	.tra_reg_body .tra_reg_body_left{
+		border: none;
+		padding: 20px;
+	}
+	.tra_reg_body .tra_reg_body_right{
+		padding: 20px;
+	}
+	.wrapper .tra_ins_reg .tra_reg_footer{
+		padding: 10px 20px;
+	}
+	.pl-0-m{
+		padding-left: 0px !important;
+	}
+	.comprehensive-insurance-add-content .insurance-plans .comprehensive-tpl-child{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.plan-forms.resp-plans .comprehensive-tpl-child {
+		width: 100%;
+	}
+	/* faq*/
+
+	.faq-block-types li {
+		display: block;
+		list-style-type: none;
+		margin-bottom: 20px;
+	}
+	.faq-block-types a {
+		background-color: #e5e5e5;
+		border-radius: 0;
+		color: #333;
+		font-size: 14px;
+		margin: 0 auto;
+		padding: 10px;
+	}
+	.faq-block-content h1 {
+		border-bottom: 0 solid #d4d4d4;
+		color: #0f4574;
+		font-size: 1.5em;
+		padding: 0;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.question {
+		color: #0f4574;
+		display: inline-flex;
+		font-size: 0.9em;
+		margin-bottom: 5px;
+		text-transform: uppercase;
+	}
+	/*ends*/
+	.contatc-inner-block .customer-care .form-group .field-width{
+		width: 100%;
+	}
+	.contatc-inner-block .customer-care .field-width + .field-width {
+		padding-left: 0%;
+	}
+	.contact-tabs-bg .section-why-insurance:before{
+		background-image: none;
+	}
+	.guest-block .policy-actions > a + a {
+		margin-left: 0;
+	}
+	.guest-block .policy-actions > a {
+		font-size: 0.85em;
+		margin-bottom: 10px;
+		padding: 8px 0;
+		text-align: center;
+		width: 100%;
+		display: block;
+	}
+	.tra_reg_body .tra_reg_body_left{
+		padding-bottom: 0px !important;
+	}
+	.tra_reg_body .tra_reg_body_right{
+		padding-top: 0px !important;
+	}
+	.quotation-manage-policy .policy-options {
+		padding-left: 10px;
+		margin-top: 20px;
+	}
+	.quote-information-block .quote-label,
+	.quote-information-block .quote-label-val{
+		width: 49%;
+	}
+	.lagin-page-layout .login-container .resp-accordion > span {
+	    display: block;
+	}
+	.lagin-page-layout .login-container{
+		width: 98%;
+	}
+	.login-container .login-page-form {
+   		 width: 100%;
+	}
+	.login-container .resp-tabs-container h2{
+		margin-top: 20px;
+	}
+	.full-wrapper.insured-living .insured-heading{
+		width:100%;
+	}
+	
+}
+
+@media (max-width: 741px){
+	.full-wrapper .upload-image-block:nth-child(2n+1){
+		margin-left: 0;
+	}
+	.full-wrapper .upload-image-block:nth-child(3n+1){
+		margin-left: 10px;
+	}
+	.full-wrapper .upload-image-block:nth-child(4n+1){
+		margin-left: 10px;
+	}
+	.full-wrapper .comprehensive-tra-insurance .tra_ins_reg.terms_cond{
+		width: 100%;
+	}
+	.full-wrapper .comprehensive-tra-insurance .tra_ins_reg.paymet_options{
+		width: 100%;
+	}
+}
+@media (max-width: 740px){
+	.pull-right .contact_details{
+		float: right;
+		clear: both;
+		margin-right: 0px;
+	}
+	.home-insurance-col:nth-child(1) {
+		width: 100% !important;
+	} 
+	.home-insurance-col:nth-child(2) {
+		width: 100%	!important;
+	}
+	.home-insurance-col:nth-child(3) {
+		width: 100%	!important;
+	}
+	.home-insurance-col:nth-child(2) > span:nth-child(1) {
+		width: 40% !important;
+	}
+	.lagin-page-layout .login-container{
+		width: 89%;
+	}
+	.lagin-page-layout .login-container{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+@media (max-width: 640px){
+	a.select-plan, .select-plan,a.send-email, .send-email{
+		font-size: 11px;
+   		padding: 5px 6px;
+	}
+	.oman-travel-plans .one-top-half >div >div, .oman-travel-plans .one-bottom-half >div >div{
+		font-size: 14px;
+	}
+	.oman-travel-plans .title-plans >h4{
+		font-size: 0.9em;
+		line-height: normal;
+	}
+	.oman-travel-plans .title-plans >h4 >span{
+		line-height: normal;
+		font-size: 0.8em;
+	}
+	.oman-travel-plans .title-plans{
+		min-height: auto;
+	}
+}
+
+@media (max-width:540px){
+	.double-content .pull-left{
+		float: none !important;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 15px;
+	}
+	.double-content .mr50 address, .double-content .ml50 address{
+		text-align: center !important;
+	}
+}
+@media (max-width: 530px){
+	.top_header .menu span{
+		display: none;
+	}
+	.container .section-why-insurance ul li{
+		padding: 2% 4%;
+		display: block;
+	}
+}
+@media (max-width: 509px){
+	.full-wrapper .upload-image-block{
+		margin-left: 0px !important;
+	}
+	.full-wrapper .upload-image-block:nth-child(2n+1){
+		margin-left: 0px;
+	}
+	.full-wrapper .upload-image-block:nth-child(3n+1){
+		margin-left: 0px;
+	}
+	.full-wrapper .upload-image-block:nth-child(4n+1){
+		margin-left: 0px;
+	}
+}
+@media (max-width:495px){
+	.copy-right-block{
+		text-align: center;
+	   }
+	.copy-right-block .pull-block{
+		float: none;
+	}
+}
+@media (max-width: 480px){
+	.cirtification-block {
+		text-align: center;
+	}
+	.cirtification-block .content-block{
+		width: 100%;
+	}
+	.travel-insurance-covers{
+		text-align: center;
+	}
+	.travel-insurance-covers .content-block{
+		width: 100%;
+		padding: 0px;
+	}
+	.banner-img .quotation-forms, .o-banner-img .quotation-forms, .uae-banner-img .quotation-forms{
+		width: 100%;
+	}
+	.banner-img .banner-text, .o-banner-img .banner-text, .uae-banner-img .banner-text{
+		font-size: 1.2em;
+	}
+	.captcha-field .col-lg-6, .captcha-field .col-lg-6 input{
+		width: 100%;
+	}
+	.full-wrapper .bottom-arrow{
+		left: 40%;
+	}
+}
+@media (max-width: 460px){
+	.div{
+		display: none;
+	}
+	.pull-right .contact_details span.hotline, .pull-right .contact_details span.mail_to{
+		width: 100%;
+		margin-bottom: 5px;
+		display: block;
+		text-align: center;
+	}
+	.tra_ins_table tr td{
+		width: 100%!important;
+	}
+}
+@media (max-width:370px){
+	.modal-footer .btn-cancel, .modal-footer .btn-send{
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width:360px){
+	.pull-left.logo{
+		width: 180px;
+	}
+	.navbar-default .navbar-collapse .navbar-nav li a {
+		padding-top: 5px;
+	}
+}
+@media (max-width:340px){
+	.quotation_links > a, .quotation_links span{
+		width: 100%;
+	}
+	.quotation_links{
+		display: inline-block;
+	}
+	.lagin-page-layout .login-container{
+		width: 86%;
+	}
+}
+@media(min-width: 992px) and (max-width: 1024px){
+	.excellent-service-first-col {
+	    color: #fff;
+	    font-family: "roboto light";
+	    font-size: 28px;
+	    line-height: 27px;
+	    padding: 78px 115px 0 50px;
+	    width: 90%;
+}
+	.excellent-service-second-col {
+    color: #fff;
+    font-family: "roboto regular";
+    font-size: 16px;
+    line-height: 27px;
+    padding: 0 115px 105px 50px;
+    width: 90%;
+}
+}
+@media(min-width: 767px) and (max-width: 991px){
+	.excellent-service-first-col {
+    color: #fff;
+    font-family: "roboto light";
+    font-size: 24px;
+    line-height: 27px;
+    padding: 78px 90px 0 7px;
+    width: 80%;
+}
+   .excellent-service-second-col {
+    color: #fff;
+    font-family: "roboto regular";
+    font-size: 16px;
+    line-height: 27px;
+    padding: 6px 90px 120px 7px;
+    width: 80%;
+}
+.featurs-right-brd {
+    border-right: none;
+}
+
+}
+@media(min-width: 320px) and (max-width: 640px){
+	.excellent-service-first-col {
+    color: #fff;
+    font-family: "roboto light";
+    font-size: 28px;
+    line-height: 27px;
+    padding: 40px 5px 0;
+    width: 70%;
+}
+	.excellent-service-second-col {
+    color: #fff;
+    font-family: "roboto regular";
+    font-size: 16px;
+    line-height: 27px;
+    padding: 0 10px 40px;
+    width: 70%;
+}
+.col-md-6.col-sm-6.norpadding.mt40.mb40 {
+    padding-right: 15px !important;
+}
+.col-md-6.col-sm-6.nolpadding.mt40.mb40 {
+    padding-left: 15px !important;
+}
+.featurs-right-brd {
+    border-right: none;
+}
+}
+
+@media(max-width: 1024px){
+	.hidden-1024{
+		display: none;
+	}
+	.hide-1024{
+		display: none;
+	}
+}
+
+@media(min-width: 320px) and (max-width: 1100px){
+	.nav.navbar-nav.pull-right {
+    width: 100%;
+}
+.main-menu-width {
+    width: 100% !important;
+}
+.mega-dropdown-menu::after{
+	display: none;
+}
+.mega-dropdown-menu::before{
+	display: none;
+}
+.navbar-nav {
+    margin: 7.5px;
+}
+}
+@media (max-width: 1100px) {
+	.container{
+		width: 100%;
+	}
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+@media(min-width: 768px) and (max-width: 1024px){
+	.progress .bar {
+	    border-left: medium none;
+	    border-radius: 0;
+	    border-right: medium none;
+	    height: 10px;
+	    margin-left: -5px;
+	    margin-right: -5px;
+	    position: relative;
+	    top: 0;
+	    width: 14%;
+}
+.progress-bar-text {
+    color: #666;
+    float: left;
+    font-size: 14px;
+    width: 20%;
+}
+}
+@media(min-width: 320px) and (max-width: 359px){
+	.progress .bar {
+    border-left: medium none;
+    border-radius: 0;
+    border-right: medium none;
+    height: 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+    position: relative;
+    top: 0;
+    width: 3%;
+}
+.progress-bar-text {
+    color: #666;
+    float: left;
+    font-size: 10px;
+    text-align: center;
+    width: 20%;
+}
+}
+@media(min-width: 360px) and (max-width: 479px){
+	.progress .bar {
+    border-left: medium none;
+    border-radius: 0;
+    border-right: medium none;
+    height: 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+    position: relative;
+    top: 0;
+    width: 5%;
+}
+.progress-bar-text {
+    color: #666;
+    float: left;
+    font-size: 10px;
+    text-align: center;
+    width: 20%;
+}
+}
+@media(min-width: 480px) and (max-width: 767px){
+	.progress .bar {
+    border-left: medium none;
+    border-radius: 0;
+    border-right: medium none;
+    height: 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+    position: relative;
+    top: 0;
+    width: 10%;
+}
+.progress-bar-text {
+    color: #666;
+    float: left;
+    font-size: 12px;
+    width: 20%;
+}
+}
+
+
+
+}
+
+
+@media(min-width: 320px) and (max-width: 992px){
+	.dec-pre-first-block {
+    padding-left: 15px !important;
+}
+    .dec-pre-second-block{
+    	padding-right: 15px !important;
+    }
+}

@@ -1,0 +1,49 @@
+
+/*******Input [type=button]***********/
+.insurance-navigation input[type='button']{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #a60d4e;
+  text-transform: uppercase;
+  padding: 11px 22px;
+  border: 1px solid #750A36;
+  border-radius: 6px;
+  float: left;
+}
+
+.insurance-navigation input[type='button']{
+  float: right;
+}
+
+/*******Error Model***********/
+.terms-content{
+  padding: 15px 0;
+}
+.error-title{
+	color: #af0532;
+	margin-bottom: 0;
+	font-size: 1.2em;
+
+}
+.error-btn{
+	background: #af0532;
+	border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 0.88em;
+  margin-right: 5px;
+  padding: 6px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100px;
+}
+/********Home Dropdown issue style************/
+.home_ins_details .table-responsive {
+  min-height: unset;
+  overflow-x: unset !important;
+}
+
+.driver-details .date-field > .add-on {
+  top: 14px;
+}
