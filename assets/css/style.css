@@ -9779,3 +9779,55 @@ a.send-email,.send-email{
      margin-left: 20px;
 	}
 }
+
+
+
+
+/* akarsh css for Manage-policy2-popup */
+@media (min-width:768px){
+	.manage_policy_popup .modal-dialog{
+		width: 100%;
+		max-width: 640px;
+	}
+	.manage_policy_popup .modal-dialog .modal-body{
+		padding: 25px 15px 40px 15px;
+	}
+}
+.manage_policy_popup .policy_details{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.manage_policy_popup .policy_details table{
+	width: 100%;
+}
+.manage_policy_popup .policy_details td{
+	padding:5px 0px;
+}
+.manage_policy_popup .policy_details tr.last td{
+	padding-bottom: 0px;
+}
+.manage_policy_popup .policy_details tr.top td{
+	padding-top: 0px;
+}
+.manage_policy_popup .policy_details span{
+	font-family: "Roboto regular";
+	color: #666666;
+	font-size: 14px;
+}
+.manage_policy_popup .policy_details span.Policy_heading{
+	color: #333333;
+	font-family: "Roboto regular";
+	font-size: 16px;
+	display: block;
+	padding-bottom: 10px;
+}
+.manage_policy_popup .policy_details a{
+	display: block;
+	padding-right: 3px;
+}
+.manage_policy_popup .policy_details span.heiglght{
+	color:#88192C;
+}
+.manage_policy_popup .policy_details.vertical_sepetn{
+	border-right: 1px solid #DDDDDD;
+}
