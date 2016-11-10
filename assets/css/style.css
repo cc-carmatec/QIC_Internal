@@ -9201,6 +9201,7 @@ a.send-email,.send-email{
 	padding-bottom: 8px !important;
 	padding-top: 8px !important;
 	text-transform: none;
+	padding-left:10px;
 }
 .manage-policy-layout .manage-policy-form .form-group label{
 	font-family: "Roboto Light";
