@@ -296,3 +296,19 @@ $(function () {
           }
       });
     });
+
+
+$(document).ready(function() {
+
+    $('.button-add').click(function(){
+
+        //we select the box clone it and insert it after the box
+        $('.box:first').clone().insertAfter(".box:last");
+    });
+    
+    $(document).on("click", ".button-remove", function() {
+       if($('.box').length > 1) {
+        $(this).closest(".box").remove();
+      }
+    });
+});

@@ -9527,7 +9527,6 @@ a.send-email,.send-email{
     -moz-osx-font-smoothing: grayscale;
 }
 
-
 /*FAQ CSS by Madhuri */
 
 .faq-banner-image
@@ -9778,4 +9777,49 @@ a.send-email,.send-email{
 	.why-us-section .panel {
      margin-left: 20px;
 	}
+}
+
+
+/*Policy Wordings Css by Madhuri*/
+.policy-wordings-text
+{
+	text-transform: capitalize;
+    font-family: "Roboto medium";
+    padding-top:1em;
+    color:#4767A0;
+}
+
+.policy-wordings-container
+{
+	height:150px;
+	background-color: #EEEEEE;
+	margin-bottom: 4em;
+	width:90%;
+}
+.image-policy-wording
+{
+    text-align: center;
+    margin-left: 4px;
+    margin-top: 24px;
+}
+.image-policy-wording-bg
+{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    float: left;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: -45px;
+    border: 1px solid #AB1D35;
+}
+.image-policy-text-bg
+{
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 32px;
 }
