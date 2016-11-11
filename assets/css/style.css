@@ -9800,6 +9800,10 @@ a.send-email,.send-email{
 .manage_policy_popup .policy_details table{
 	width: 100%;
 }
+.manage_policy_popup .policy_details table.left td:first-child{
+	width: 35%;
+	min-width: 110px;
+}
 .manage_policy_popup .policy_details td{
 	padding:5px 0px;
 }

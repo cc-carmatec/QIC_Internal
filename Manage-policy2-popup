@@ -645,7 +645,7 @@
 			<div class="oman-renew-policy-form-body">
 				<div class="row">
 					<div class="col-sm-7 policy_details vertical_sepetn">
-						<table class="">
+						<table class="left">
 							<tr class="top">
 								<td colspan="2"><span class="Policy_heading">Policy Details</span></td>
 							</tr>
