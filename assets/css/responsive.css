@@ -718,13 +718,13 @@
 	    margin-right: -5px;
 	    position: relative;
 	    top: 0;
-	    width: 14%;
+	    width: 20%;
 }
-.progress-bar-text {
+.progress-bar-text-cardetails {
     color: #666;
     float: left;
     font-size: 14px;
-    width: 20%;
+    width: 25%;
 }
 }
 @media(min-width: 320px) and (max-width: 359px){
@@ -737,14 +737,13 @@
     margin-right: -5px;
     position: relative;
     top: 0;
-    width: 3%;
+    width: 10%;
 }
-.progress-bar-text {
+.progress-bar-text-cardetails {
     color: #666;
     float: left;
     font-size: 10px;
-    text-align: center;
-    width: 20%;
+    width: 25%;
 }
 }
 @media(min-width: 360px) and (max-width: 479px){
@@ -757,14 +756,13 @@
     margin-right: -5px;
     position: relative;
     top: 0;
-    width: 5%;
+    width: 15%;
 }
-.progress-bar-text {
+.progress-bar-text-cardetails {
     color: #666;
     float: left;
     font-size: 10px;
-    text-align: center;
-    width: 20%;
+    width: 25%;
 }
 }
 @media(min-width: 480px) and (max-width: 767px){
@@ -777,30 +775,34 @@
     margin-right: -5px;
     position: relative;
     top: 0;
-    width: 10%;
-}
-.progress-bar-text {
-    color: #666;
-    float: left;
-    font-size: 12px;
     width: 20%;
 }
+.progress-bar-text-cardetails {
+    color: #666;
+    float: left;
+    font-size: 10px;
+    width: 25%;
+}
 }
 
-
-
+@media(min-width:320px)and (max-width:480px)
+{
+.btn-buy-now {
+    background: #ba1732 linear-gradient(to bottom, #ba1732, #780114) repeat scroll 0 0;
+    border: 1px solid #ba1732;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    margin-right: -24px;
+    margin-top: -12px;
+    padding: 10px 12px;
 }
-
-
-@media(min-width: 320px) and (max-width: 992px){
-	.dec-pre-first-block {
-    padding-left: 15px !important;
+.pink-color {
+    color: #A41B2D !important;
+    font-size: 12px;
 }
-    .dec-pre-second-block{
-    	padding-right: 15px !important;
-    }
 }
-
 
 /*<!-- Responsive Css for FAQ by Madhuri-->*/
 @media(min-width:768px) and (max-width:980px)

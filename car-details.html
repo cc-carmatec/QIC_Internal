@@ -37,16 +37,17 @@
 
   <nav class="navbar navbar-default">
     <div class="container ">
-    <div class=" col-md-3 col-sm-3 mt20">
+    <div class=" col-md-3 col-sm-6 col-xs-6 mt20">
       <a href="#" class=""><img class="img-responsive" alt="Logo" src="assets/images/OQIC_Logo.png"></a>
     </div>
 
 
-    <div class="col-md-9 col-sm-9 mt30">
+    <div class="col-md-9 col-sm-6 col-xs-6 mt20">
    <div class="pull-right">
-							<div class="contact_details">
-								<span class="hotline"><i class="fa fa-phone"></i> <span class="text">Hotline</span>  <span>8006 7421</span></span><span class="div">|</span><span class="hotline"><a href="mailto:info@qic.com.qa"><i aria-hidden="true" class="fa fa-envelope-o"></i><span> oqiconline@oqic.com</span>
+							
+							<span class="hotline "><i class="fa fa-phone"></i> <span class="text hidden-xs hidden-sm">Hotline</span>  <span class="hotline hidden-xs hidden-sm ">8006 7421</span></span><span class="div">|</span><span><a href="mailto:info@qic.com.qa"><i aria-hidden="true" class="fa fa-envelope-o"></i><span class="hidden-xs hidden-sm"> oqiconline@oqic.com</span>
 								</a></span>
+							
 							</div>
 						</div>
     </div>
@@ -70,21 +71,21 @@
 					<div class="circle">
 						<span class="label">3</span>
 						</div>
-						<span class="bar"></span>
-					<div class="circle">
+						<!-- <span class="bar"></span> -->
+					<!-- <div class="circle">
 						<span class="label">4</span>
-						</div>
+						</div> -->
 					    <span class="bar"></span>
 					<div class="circle">
-						<span class="label">5</span>
+						<span class="label">4</span>
 					</div>
 
 					<div class="col-md-12">
-					<div class="progress-bar-text active">Get A Quote</div>
-					<div class="progress-bar-text active">Enter Personal Details</div>
-					<div class="progress-bar-text">Upload Document</div>
-					<div class="progress-bar-text">Payment Details</div>
-					<div class="progress-bar-text">You Are <img src="assets/images/insure-progress-logo.png"></div>
+					<div class="progress-bar-text-cardetails active" style="margin-left:-0.8em;">Get A Quote</div>
+					<div class="progress-bar-text-cardetails active">Enter Personal Details</div>
+					<!-- <div class="progress-bar-text">Upload Document</div> -->
+					<div class="progress-bar-text-cardetails" >Payment Details</div>
+					<div class="progress-bar-text-cardetails">You Are <img src="assets/images/insure-progress-logo.png"></div>
 				</div>
 
 				</div>
@@ -106,6 +107,49 @@
 					<h2 class="dark-blue-color quote-id-heading">Provide Personal And Car Details</h2>
 				</div>
 			</div>
+			<div class="row ml-0 mr-0 mt10">
+				<div class="container">
+				<div>
+					<h1 class="brd-btm personal-detal-heading">DRIVER DETAILS</h1>
+					<i class="fa fa-plus-square pull-right button-add" type="button" style="margin-top:-37px; color: #48659F;font-size: 24px;" aria-hidden="true"></i>
+				</div>
+
+			<form class="formClass">	
+				<div class="col-md-12 col-sm-12 col-xs-12 nolrpadding mb5 mt10 form-group box">
+
+					<div class="col-md-4 col-xs-12 col-md-12 mb10 nolrpadding">
+						<div class="col-md-4 col-sm-4 col-xs-12">
+					    	<label class="form-label-name" for="test12">Name<span class="required">*</span></label>
+					    </div>
+					    <div class="col-md-8 col-sm-8 col-xs-12">
+					    	<input type="text" id="test12" class="form-control nolrpadding form-input-name">
+					   </div>
+					</div>
+					<div class="col-md-4 col-xs-12 col-md-12 mb10 nolrpadding">
+						<div class="col-md-4 col-sm-4 col-xs-12">
+					    	<label class="form-label-name mt5" for="test15">Oman ID<span class="required">*</span> <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" title="Qatar ID"></i></label>
+					    </div>
+					    <div class="col-md-8 col-sm-8 col-xs-12">
+					    	<input type="text" id="tes15t" class="form-control form-input-name">
+					    </div>
+					</div>
+					<div class="col-md-4 col-xs-12 col-md-12 mb10 nolrpadding">
+						<div class=" col-md-4 col-sm-4 col-xs-12">
+					    	<label class="form-label-name mt5" for="test14">Contract Expiry Date<span class="required">*</span></label>
+					    </div>
+					    <div class="col-md-8 col-sm-8 col-xs-12">
+					    	<div class="col-md-8 col-sm-8 col-xs-12 nolrpadding" style="width:100%;">
+					    	<input type="text" id="test14" class="form-control form-input-name">
+					    	</div>
+					    	<div class="driver-delete">
+					    	<i class="fa fa-times button-remove" style="color:#AB1D35;" aria-hidden="true"></i>
+					    	</div>
+						</div>
+					</div>
+				</div>	
+			</form>
+		</div>
+	</div>
 			<div class="row ml-0 mr-0 mt10">
 				<div class="container">
 					<h1 class="brd-btm personal-detal-heading">PERSONAL DETAILS</h1>
@@ -204,49 +248,8 @@
 			</form>
 		</div>
 	</div>
-	<div class="row ml-0 mr-0 mt10">
-				<div class="container">
-				<div>
-					<h1 class="brd-btm personal-detal-heading">DRIVER DETAILS</h1>
-					<i class="fa fa-plus-square pull-right button-add" type="button" style="margin-top:-37px; color: #48659F;font-size: 24px;" aria-hidden="true"></i>
-				</div>
 
-			<form  class="form-group box">	
-				<div class="col-md-12 col-sm-12 col-xs-12 nolrpadding mb5 mt10">
-
-					<div class="col-md-4 col-xs-12 col-md-12 mb10 nolrpadding">
-						<div class="col-md-4 col-sm-4 col-xs-12">
-					    	<label class="form-label-name" for="test12">Name<span class="required">*</span></label>
-					    </div>
-					    <div class="col-md-8 col-sm-8 col-xs-12">
-					    	<input type="text" id="test12" class="form-control nolrpadding form-input-name">
-					   </div>
-					</div>
-					<div class="col-md-4 col-xs-12 col-md-12 mb10 nolrpadding">
-						<div class="col-md-4 col-sm-4 col-xs-12">
-					    	<label class="form-label-name mt5" for="test15">Oman ID<span class="required">*</span> <i class="fa fa-info-circle" aria-hidden="true" data-toggle="tooltip" title="Qatar ID"></i></label>
-					    </div>
-					    <div class="col-md-8 col-sm-8 col-xs-12">
-					    	<input type="text" id="tes15t" class="form-control form-input-name">
-					    </div>
-					</div>
-					<div class="col-md-4 col-xs-12 col-md-12 mb10 nolrpadding">
-						<div class=" col-md-4 col-sm-4 col-xs-12">
-					    	<label class="form-label-name mt5" for="test14">Contract Expiry Date<span class="required">*</span></label>
-					    </div>
-					    <div class="col-md-8 col-sm-8 col-xs-12">
-					    	<div class="col-md-8 col-sm-8 col-xs-12 nolrpadding" style="width:100%;">
-					    	<input type="text" id="test14" class="form-control form-input-name">
-					    	</div>
-					    	<div style="position:absolute; right:0">
-					    	<i class="fa fa-times button-remove" style="color:#AB1D35;" aria-hidden="true"></i>
-					    	</div>
-						</div>
-					</div>
-				</div>	
-			</form>
-		</div>
-	</div>
+	
 
 			<div class="row ml-0 mr-0 mt30">
 				<div class="container">
@@ -445,7 +448,7 @@
 				<div class="col-md-12 nolrpadding mb40">
 				  <div class="col-md-12 nolrpadding personal-detal-heading">
 				  <div class="net-pre-block mt10">
-				    <div class="pink-color"><strong>NET PREMIUM : QAR 6000</strong>
+				    <div class="pink-color"><strong>NET PREMIUM : OMR 6000</strong>
 				     <button class="btn btn-buy-now pull-right">Buy Now</button></div>
 				  </div>				 
 				  </div>
@@ -455,143 +458,177 @@
 
 			
 	</div>
-<!--Section One Ends-->
-
+<!--Section Form Ends-->
 <div id="nav_up" class="nav_up" style="opacity: 1;"><i class="fa fa-arrow-up"></i></div>
 <div id="nav_down" class="nav_down" style="opacity: 1;"><i class="fa fa-arrow-down"></i></div>
 
-<div class="full-wrapper footer-bg">
-		<footer class="container">
-		
-			<div class="row ml-0 mr-0 footer-container">
-			    <div class="col-md-4 col-sm-6 col-xs-12 noLRpdg">
-					<div class="site-links-block">
-						<h3>Latest News</h3>
-						   <div class="news-headlines-section">
-							 <span class="news-headlines">NEWS HEADLINE1</span>
-							 <p class="news-headlines-content">31960s with the release of Letraset sheets containing the publishing software like Aldus... <span class="news-headlines-readmore">Read More</span></p>
-							</div>
-							<div class="brd-btm mt10 mb10"></div>
+<!--Section Footer-->
+  <div class="full-wrapper footer-bg">
+    <footer class="container">
+      <div class="row ml-0 mr-0 footer-container">
+        <div class="col-md-4 col-sm-6 col-xs-12 noLRpdg">
+          <div class="site-links-block">
+            <h3>Latest News</h3>
+            <div class="news-headlines-section">
+              <span class="news-headlines">NEWS HEADLINE1</span>
+              <p class="news-headlines-content">31960s with the release of Letraset sheets containing the publishing software like Aldus... <span class="news-headlines-readmore">Read More</span>
+              </p>
+            </div>
+            <div class="brd-btm mt10 mb10"></div>
 
-							<div class="news-headlines-section">
-							 <span class="news-headlines">NEWS HEADLINE2</span>
-							 <p class="news-headlines-content">desktop publishing software the release of Letraset sheets containing the publishing... <span class="news-headlines-readmore">Read More</span></p>
-						   </div>
-					</div>
-				</div>
-				<div class="col-md-2 col-sm-6 col-xs-12 noLRpdg">
-					<div class="site-links-block">
-						<h3>Main Links</h3>
-						<ul class="list-inline">
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i>
-							<a href="index.html">About QIC Group</a></li>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i>
-							<a href="#">Business Insurance</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-2 col-sm-6 col-xs-12 noLRpdg">
-					<div class="site-links-block">
-						<h3>Insurance</h3>
-						<ul class="list-inline">
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i>
-							    <a href="car_insurance.html">Car</a></li>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i>
-							    <a href="home_insurance.html">Home</a></li>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i>
-							<a href="Travel_Insurance.html">Travel</a></li>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i>
-							<a href="#">Policy Wordings</a></li>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i>
-							<a href="#">FAQ</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-2 col-sm-6 col-xs-12 noLRpdg">
-					<div class="site-links-block">
-						<h3>Support</h3>
-						<ul class="list-inline">
-							<li>
-							    <i class="fa fa-caret-right" aria-hidden="true"></i>
-                                <a href="#">Location</a>
-                            </li>
-							<li>
-							     <i class="fa fa-caret-right" aria-hidden="true"></i>
-							    <a href="#">Customer Care</a>
-							</li>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i>
-							 <a href="#">Request a Call Back</a></li>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i>
-							<a href="#">Feedback</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-2 col-sm-12 col-xs-12 noLRpdg last-block">
-					<div class="site-links-block">
-						<h3>Go Mobile</h3>
-						<ul class="list-inline list-inline-block">
-							<li><a href="javascript:void(0)"><img src="assets/images/aps-googl.png" alt="Play Store"></a></li>
-							<li><a href="javascript:void(0)"><img src="assets/images/aps-app.png" alt="App store"></a></li>
-						</ul>
-					</div>
-					<div class="social-links">
-						<h3>Follow us on</h3>
-						<ul class="list-inline">
-							<li><div class="social-icon"><a href="https://twitter.com/Qatarinsurance"><i class="fa fa-twitter"></i></a></div></li>
-							<li><div class="social-icon"><a href="https://www.facebook.com/qatarinsurance/"><i class="fa fa-facebook"></i></a></div></li>
-							<li><div class="social-icon"><a href="https://www.linkedin.com/company/qatar-insurance-company-doha"><i class="fa fa-linkedin"></i></a></div></li>
-							<li><div class="social-icon"><a href="https://www.instagram.com/qatar.insurance"><i class="fa fa-instagram"></i></a></div></li>
-							<li><div class="social-icon"><a href="https://www.youtube.com/user/QICGroup"><i class="fa fa-youtube"></i></a></div></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+            <div class="news-headlines-section">
+              <span class="news-headlines">NEWS HEADLINE2</span>
+              <p class="news-headlines-content">desktop publishing software the release of Letraset sheets containing the publishing... <span class="news-headlines-readmore">Read More</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-xs-12 noLRpdg">
+          <div class="site-links-block">
+            <h3>Main Links</h3>
+            <ul class="list-inline">
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="index.html">About QIC Group</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Business Insurance</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Road safety</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Pay how your drive</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">QIC Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-xs-12 noLRpdg">
+          <div class="site-links-block">
+            <h3>Insurance</h3>
+            <ul class="list-inline">
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="car_insurance.html">Car</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="home_insurance.html">Home</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="Travel_Insurance.html">Travel</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="Travel_Insurance.html">Personal Accident Benefits</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Policy Wordings</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-xs-12 noLRpdg">
+          <div class="site-links-block">
+            <h3>Support</h3>
+            <ul class="list-inline">
+              <li>
+                <i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Location</a>
+              </li>
+              <li>
+                <i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Customer Care</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Request a Call Back</a>
+              </li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i>
+                <a href="#">Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12 col-xs-12 noLRpdg last-block">
+          <div class="site-links-block">
+            <h3>Go Mobile</h3>
+            <ul class="list-inline list-inline-block">
+              <li>
+                <a href="javascript:void(0)"><img src="assets/images/aps-googl.png" alt="Play Store">
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)"><img src="assets/images/aps-app.png" alt="App store">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <h3>Follow us on</h3>
+            <ul class="list-inline">
+             
+              <li>
+                <div class="social-icon"><a href="https://www.facebook.com/qatarinsurance/"><i class="fa fa-facebook"></i></a>
+                </div>
+              </li>
+              
+              <li>
+                <div class="social-icon"><a href="https://www.instagram.com/qatar.insurance"><i class="fa fa-instagram"></i></a>
+                </div>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
 
-			<div class="row ml-0 mr-0 footer-container borderTop mb20">
-				<h2 class="footer-heading">CERTIFICATION</h2>
-				<div class="outer-block">
-					<div class="cirtification-block clearfix">
-						<div class="cirtfct-logo">
-							<img src="assets/images/certificate1.png">
-						</div>
-						<div class="content-block">
-							<p class="info-block">QIC Maintenance financial Strength Rating (Standard &amp; poor's) of A/Stable.</p>
-						</div>
-					</div>
-				</div>
-				<div class="outer-block">
-					<div class="cirtification-block clearfix">
-						<div class="cirtfct-logo">
-							<img src="assets/images/certificate2.png">
-						</div>
-						<div class="content-block">
-							<p class="info-block">A.M Best Europe assigned financial strength rating of A (Excellent) and issuer credit rating of "a" to QIC and its main subsidiaries:</p>
-						</div>
-					</div>
-				</div>
-				<div class="outer-block">
-					<div class="cirtification-block clearfix">
-						<div class="cirtfct-logo">
-							<img src="assets/images/certificate3.png">
-						</div>
-						<div class="content-block">
-							<p class="info-block">IT Security ISO 27001 cerification.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<div class="full-wrapper copy-rights-bg">
-			<div class="container">
-				<div class="row ml-0 mr-0 footer-container">
-					<div class="copy-right-block col-lg-12 col-md-12 col-sm-12 col-xs-12 noLRpdg">
-						<span class="copy-right-logo">Copyright &copy; All rights reserved QIC Group Doha, 2005-2016</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--Section Five-->
+      <div class="row ml-0 mr-0 footer-container borderTop mb20">
+        <h2 class="footer-heading">CERTIFICATION</h2>
+        <div class="outer-block">
+          <div class="cirtification-block clearfix">
+            <div class="cirtfct-logo">
+              <img src="assets/images/certificate1.png">
+            </div>
+            <div class="content-block">
+              <p class="info-block">QIC Maintenance financial Strength Rating (Standard &amp; poor's) of A/Stable.</p>
+            </div>
+          </div>
+        </div>
+        <div class="outer-block">
+          <div class="cirtification-block clearfix">
+            <div class="cirtfct-logo">
+              <img src="assets/images/certificate2.png">
+            </div>
+            <div class="content-block">
+              <p class="info-block">A.M Best Europe assigned financial strength rating of A (Excellent) and issuer credit rating of "a" to QIC and its main subsidiaries:</p>
+            </div>
+          </div>
+        </div>
+        <div class="outer-block">
+          <div class="cirtification-block clearfix">
+            <div class="cirtfct-logo">
+              <img src="assets/images/certificate3.png">
+            </div>
+            <div class="content-block">
+              <p class="info-block">IT Security ISO 27001 cerification.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="full-wrapper copy-rights-bg">
+      <div class="container">
+        <div class="row ml-0 mr-0 footer-container">
+          <div class="copy-right-block col-lg-12 col-md-12 col-sm-12 col-xs-12 noLRpdg">
+            <span class="copy-right-logo">Copyright &copy; All rights reserved QIC Group Doha, 2005-2016</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	<!--Section Footer-->
 <script>
 $(document).ready(function(){
     $('#datetimepicker1').datetimepicker();

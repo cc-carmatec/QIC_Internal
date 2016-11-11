@@ -7318,7 +7318,7 @@ nav.navbar.navbar-default {
     margin-right: -5px;
     position: relative;
     top: 0;
-    width: 16%;
+    width: 25%;
 }
 .progress .circle .label {
     background: #47649e none repeat scroll 0 0;
@@ -9822,4 +9822,54 @@ a.send-email,.send-email{
     margin: 0 auto;
     position: absolute;
     margin-top: 32px;
+}
+.image-policy-text-bg {
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 4em;
+    width: 53%;
+    height: 34px;
+    border: 1px solid #C6CFDE;
+    background-color: white;
+    border-radius: 6px;
+    padding-top: 6px;
+}
+
+/*Css for car details progress bar*/
+.progress-bar-text-cardetails {
+    color: #666;
+    display: inline-block;
+    text-align: center
+    font-size: 18px;
+    width: 25%;
+}
+
+.driver-delete
+{
+	position:absolute; 
+	right:0
+}
+form.formClass .form-group.box:first-child .driver-delete {
+    display: none;
+}
+
+@media(min-width:250px)and (max-width:480px)
+{
+.btn-buy-now {
+    background: #ba1732  repeat scroll 0 0;
+    border: 0px solid #ba1732;
+    border-radius: 30px;
+    /* color: #fff; */
+    display: inline-block;
+    font-size: 12px;
+    margin-right: -24px;
+    margin-top: -11px;
+    padding: 11px;
+}
+.pink-color {
+    color: #A41B2D !important;
+    font-size: 12px;
+}
 }
